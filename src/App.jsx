@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
+
+
 function App() {
   const [number, setNumber] = useState(7);
   const [output, setOutput] = useState(111);
@@ -32,7 +34,7 @@ function App() {
   };
 
   return (
-    <div className="bg-black w-screen h-screen text-cyan-500 grid place-content-center">
+    <div className="bg-black main text-cyan-500 grid place-content-center" style={{ width:"100vw" , height:"100vh" }}>
       <div className=" w-96 h-96 rounded-3xl border-white border-2 shadow-xl border-dotted shadow-cyan-300 backdrop-blur-xl">
         <form>
           <h1 className="text-cyan-500  text-3xl font-mono p-4 m-2 text-center border-cyan-300">
