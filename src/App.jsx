@@ -36,7 +36,7 @@ function App() {
       <div className=" w-96 h-96 rounded-3xl border-white border-2 shadow-xl border-dotted shadow-cyan-300 backdrop-blur-xl">
         <form>
           <h1 className="text-cyan-500  text-3xl font-mono p-4 m-2 text-center border-cyan-300">
-            Integer to Bits Convertor !
+            Integer to Bits Convertor !!!
           </h1>
           <div className="text-cyan-500 text-3xl font-mono p-4 m-2 text-center">
             Enter the Integer
